@@ -1,0 +1,14 @@
+{
+  "name": "wh-findwords",
+  "version": "1.0.0",
+  "description": "Function that accepts a string of letters and a list of words and returns a list of words that can be formed by the letters of the input string, regardless of order.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "susannasouv",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-jest": "29.1.2"
+  }
+}

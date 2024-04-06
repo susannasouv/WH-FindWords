@@ -35,7 +35,7 @@ function findWords(inputString: string, dictionary: string[]): string[] {
     (word) =>
       word.length <= inputString.length &&
       // if the word is longer than the input string, the word definitely cannot be
-      // formed by the letters in the input string, so we can move on to the next word
+      // formed by the letters in the input string, so we can exit early and move on to the next word
       isWordConstructable(word, new Map(letterMap))
   );
 }
